@@ -1,0 +1,63 @@
+<DOCTYPE html>
+<html>
+<head lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> =(this is for the web page to adjust on any devic)
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<h1>Heading text</h1>
+<p>paragraph/text</p>
+<form method="" action="">
+<fieldset>
+<label for="value(whatever)">whatever: <input required id="value(whatever)" type="text/email/password/radio"/></label>
+<label for="value(whatever)">whatever: <input required id="value(whatever)" type="text/email/password/radio"/></label> } (all this is on section/fieldset so we dont get confused.
+<label for="value(whatever)">whatever: <input required id="value(whatever)" type="text/email/password/radio"/></label>   also this section is for input fields only.)
+<!-- for number inputs to be a curtain value or not go over we can use the attribute pattern="[a-z0-5]{8,}" (and to make sure that the space is fiels and not skiped we can add a required attribute)--> 
+</fieldset>
+<fieldset>
+<label for=""><input id="value(whatever)" type="radio" name=""></label>
+<!-- for radio inputs i must add a name attribute with ist value and all should share the attribute(all should have the same value)-->
+<label for=""><input id="value(whatever)" type="radio" name=""></label>
+(for link in text)=eg.<label for="text/value"><input id="text" type="checkbox" required/>text<a href="link/address">text if applicable</a>
+</label>
+</fieldset>
+<fieldset>
+<label>text<input type="file"/></label>
+<label>text/num<input type="number" min="13" max="120"(this is standard for no less and no more values)/></label>
+(for dropdown option or menu)=
+(<label>
+<select>
+<option>text</option>
+<option>text</option>} this will depend on how many options you want the user to choose from
+<option>text</option>
+<option>text</option>
+</select>
+</label>)
+<label for="text">
+(just in the case where you want the user to write there expirience or a comment)
+you can just add >TEXT</
+<textarea id="value" rows="value" cols="value" placeholder="value"></textarea>
+</label>
+</fieldset>
+<input type="submit" value="submit"/>
+</form>
+</body>
+</html>
+
+
+this is the best way i can rememeber how to formulate a html form/servey structure.
+20/06/2023  @23:50
+
+
+
+FOR THE CSS I WILL CHECK NEXT TIME OR LATER
+
+
+
+
+
+
+
+
